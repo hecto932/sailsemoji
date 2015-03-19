@@ -32,6 +32,6 @@
     "type": "git",
     "url": "git://github.com/hector/foobar.git"
   },
-  "author": "hector",
-  "license": ""
+  "author": "Hector Flores",
+  "license": "MIT"
 }
