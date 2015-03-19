@@ -34,8 +34,8 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
-
+  },
+  'get /random': 'EmojiController.random'
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *

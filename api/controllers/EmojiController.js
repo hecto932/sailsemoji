@@ -11,5 +11,8 @@ module.exports = {
 	//create: function(req, res){},
 	//update: function(req, res){},
 	//destroy: function(req, res){}
+	random: function(req, res, next){
+		res.ok({'number': Utils.getRandom(1,31) });
+	}
 };
 
